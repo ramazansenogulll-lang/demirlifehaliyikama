@@ -98,7 +98,7 @@
 @font-face{font-family:Montserrat;font-style:italic;font-weight:800;font-display:swap;src:url(assets/font/montserrat-italic.woff2) format("woff2")}
 :root{
   --navy:#06102a;--navy-2:#0a1a3f;--blue:#1565e0;--blue-2:#0b4fb8;--sky:#4fb3ff;--ice:#e8f3ff;
-  --ink:#0b1630;--muted:#55627a;--line:#dbe5f2;--bg:#f4f8fd;--paper:#fff;--wa:#128c4a;
+  --ink:#0b1630;--muted:#55627a;--line:#dbe5f2;--bg:#f4f8fd;--paper:#fff;--wa:#0e7a3f;
   --r:18px;--shadow:0 18px 40px -18px rgba(6,16,42,.35);
 }
 *{box-sizing:border-box}
@@ -120,7 +120,7 @@ h2 em,h1 em{font-style:italic;color:var(--sky)}
 /* Butonlar */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;transition:transform .15s,box-shadow .15s,background .15s;border:0;cursor:pointer}
 .btn:hover{transform:translateY(-2px)}
-.btn-call{background:linear-gradient(135deg,var(--sky),var(--blue));color:#fff;box-shadow:0 12px 28px -10px rgba(21,101,224,.8)}
+.btn-call{background:linear-gradient(135deg,var(--blue),var(--blue-2));color:#fff;box-shadow:0 12px 28px -10px rgba(21,101,224,.8)}
 .btn-wa{background:var(--wa);color:#fff;box-shadow:0 12px 28px -12px rgba(18,140,74,.8)}
 .btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.25)}
 
@@ -230,7 +230,7 @@ h2 em,h1 em{font-style:italic;color:var(--sky)}
 .cta-logo{background:#fff;border-radius:22px;padding:18px 22px;box-shadow:0 14px 30px -14px rgba(7,48,98,.6)}
 .cta-logo img{width:260px;height:auto}
 .cta h2{color:#fff}
-.cta p{color:#e1ecff;margin:0 0 22px;max-width:560px}
+.cta p{color:#fff;margin:0 0 22px;max-width:560px}
 .cta .big{display:inline-flex;align-items:center;gap:12px;font-size:clamp(1.6rem,4vw,2.3rem);font-weight:800;color:#fff;text-decoration:none;margin-bottom:20px}
 .cta .actions{display:flex;flex-wrap:wrap;gap:12px}
 .cta .btn-call{background:#fff;color:var(--blue-2)}
@@ -280,7 +280,7 @@ h2 em,h1 em{font-style:italic;color:var(--sky)}
       <a href="#musteriler">Müşterilerimiz</a>
       <a href="#sss">SSS</a>
     </nav>
-    <a class="btn btn-call" href="tel:+905418679497"><svg class="i"><use href="#i-phone"/></svg><span>0541 867 94 97</span></a>
+    <a class="btn btn-call" href="tel:+905418679497" aria-label="Ara: 0541 867 94 97"><svg class="i" aria-hidden="true"><use href="#i-phone"/></svg><span>0541 867 94 97</span></a>
   </div>
 </header>
 
@@ -358,6 +358,7 @@ h2 em,h1 em{font-style:italic;color:var(--sky)}
     <div class="phone">
       <video muted loop playsinline preload="none" poster="assets/video/gaziantep-hali-yikama-makinesi.webp" width="480" height="854" aria-label="Demir Life halı yıkama makinesinde halının yıkanması">
         <source src="assets/video/gaziantep-hali-yikama-makinesi.mp4" type="video/mp4">
+        <track kind="captions" srclang="tr" label="Türkçe" src="assets/video/gaziantep-hali-yikama-makinesi.vtt">
       </video>
     </div>
     <div>
