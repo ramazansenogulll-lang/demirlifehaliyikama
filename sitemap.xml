@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://demirlifehaliyikama.com.tr/</loc><lastmod>2026-11-10</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://demirlifehaliyikama.com.tr/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-hali-yikama-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-koltuk-yikama-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-battaniye-yikama-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-stor-perde-yikama-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-kurutma-alani-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-arac-1600.webp</image:loc></image:image>
+    <image:image><image:loc>https://demirlifehaliyikama.com.tr/assets/img/gaziantep-memnun-musteri-1600.webp</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://demirlifehaliyikama.com.tr/assets/video/gaziantep-hali-yikama-makinesi.webp</video:thumbnail_loc>
+      <video:title>Gaziantep halı yıkama: halının makinede yıkanması</video:title>
+      <video:description>Demir Life halı yıkama makinesinde halının döner fırçalar ve bol suyla yıkanması.</video:description>
+      <video:content_loc>https://demirlifehaliyikama.com.tr/assets/video/gaziantep-hali-yikama-makinesi.mp4</video:content_loc>
+      <video:duration>58</video:duration>
+    </video:video>
+  </url>
   <url><loc>https://demirlifehaliyikama.com.tr/gizlilik.html</loc><lastmod>2026-11-10</lastmod></url>
 </urlset>
